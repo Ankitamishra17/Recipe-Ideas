@@ -12,11 +12,41 @@ This project allows users to:
 - View recipes in a responsive card layout.
 - Open a modal to see recipe details, ingredients, and YouTube tutorials.
 
-Built using:
-- ⚛️ React 18  
-- ⚡ Vite  
-- 🎨 Tailwind CSS  
-- 🍽️ TheMealDB API  
+# 🍲 Recipe Ideas
+
+A React + Vite + Tailwind app to search recipes by ingredient using the [TheMealDB API](https://www.themealdb.com/).
+
+---
+
+## ✨ Features
+- Search recipes by ingredient  
+- Responsive design with Tailwind CSS  
+- Direct links to full recipe instructions  
+- Fast and lightweight (Vite-powered)
+
+---
+
+## 🚀 Tech Stack
+- [React](https://react.dev/)  
+- [Vite](https://vitejs.dev/)  
+- [Tailwind CSS](https://tailwindcss.com/)  
+- [TheMealDB API](https://www.themealdb.com/)  
+
+---
+
+## 🔧 Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/recipe-ideas.git
+
+cd recipe-ideas
+
+# Install dependencies
+npm install
+
+# Run locally
+npm run dev
+
 
 ---
 
@@ -51,9 +81,12 @@ If you've deployed the app, add a section like this:
 ```markdown
 ---
 
-## 🌐 Live Demo
 
-Check out the live app here: [https://recipe-ideas-lebkuchen-de0037.netlify.app/](https://recipe-ideas-lebkuchen-de0037.netlify.app/)
+
+
+🌐 Live Demo
+
+👉 Check out the live version here: [https://your-deploy-link.com](https://recipe-ideas-lebkuchen-de0037.netlify.app/)
 
 
 
