@@ -1,12 +1,53 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🍲 Recipe Ideas
 
-Currently, two official plugins are available:
+A React + Tailwind app to search and explore recipes by ingredient using the [TheMealDB API](https://www.themealdb.com/).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- 🔎 Search recipes by ingredient (e.g., "chicken", "egg", "rice")
+- 📸 Responsive recipe card grid
+- 📖 View full recipe details in a modal
+- 🎬 Watch cooking tutorial on YouTube (if available)
+- ⚡ Optimized with **debouncing** (faster search input)
+- 💾 Uses **caching** so repeated searches load instantly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+
+---
+
+## 🛠️ Tech Stack
+- **React 18** – UI library
+- **Vite** – Build tool
+- **Tailwind CSS** – Styling framework
+- **TheMealDB API** – Recipe data source
+
+---
+
+## 🔗 API Usage Examples  
+
+### 1. Search recipes by ingredient  
+User input: **chicken**
+
+```http
+GET https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken
+
+Getting Started
+1. Clone the repo
+git clone https://github.com/your-username/recipe-ideas.git
+cd recipe-ideas
+
+2. Install dependencies
+npm install
+
+3. Run the dev server
+npm run dev
+
+4. Build for production
+npm run build
+
+
+
+
