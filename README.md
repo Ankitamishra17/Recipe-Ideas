@@ -34,20 +34,5 @@ User input: **chicken**
 ```http
 GET https://www.themealdb.com/api/json/v1/1/filter.php?i=chicken
 
-Getting Started
-1. Clone the repo
-git clone https://github.com/your-username/recipe-ideas.git
-cd recipe-ideas
-
-2. Install dependencies
-npm install
-
-3. Run the dev server
-npm run dev
-
-4. Build for production
-npm run build
-
-
 
 
