@@ -2,7 +2,8 @@
 
 # 🍲 Recipe Ideas
 
-A React + Tailwind CSS app to search and explore recipes by ingredient using the [TheMealDB API](https://www.themealdb.com/).
+A React + Vite + Tailwind app to search recipes by ingredient using the [TheMealDB API](https://www.themealdb.com/).
+
 
 ---
 
@@ -12,9 +13,6 @@ This project allows users to:
 - View recipes in a responsive card layout.
 - Open a modal to see recipe details, ingredients, and YouTube tutorials.
 
-# 🍲 Recipe Ideas
-
-A React + Vite + Tailwind app to search recipes by ingredient using the [TheMealDB API](https://www.themealdb.com/).
 
 ---
 
