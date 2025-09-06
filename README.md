@@ -72,16 +72,6 @@ npm install
 npm run dev
 
 
-### 🌍 2. Add a Deployment Link Section
-
-If you've deployed the app, add a section like this:
-
-```markdown
----
-
-
-
-
 🌐 Live Demo
 
 👉 Check out the live version here: [https://your-deploy-link.com](https://recipe-ideas-lebkuchen-de0037.netlify.app/)
